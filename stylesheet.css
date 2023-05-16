@@ -1,18 +1,22 @@
 body { width: 90%;
-    margin: auto;
-
-
-    background: rgb(34,193,195);
-    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(69,41,8,1) 140%);
+    margin: auto;    
+    background: -webkit-radial-gradient(rgb(27, 187, 188), rgb(63, 70, 77));
+    background: radial-gradient(rgb(27, 187, 188), rgb(63, 70, 77));
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     line-height: 2.0;
-    color: rgb(51, 25, 0)
+    color: rgb(48,48,48);
+    background-image: url("https://images.pexels.com/photos/7130541/pexels-photo-7130541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
 }
 
 h1,h2 {
     text-align: center;
-    color: rgb(51, 25, 0);
+    color: rgb(63, 70, 77);
+    background-color: rgb(255, 153, 0);
+    
 }
 
 table, th, td {
@@ -27,7 +31,21 @@ a:link {
   color: black;
 }
 
-q {
+.quote {
     width: 50%;
-    size: 160%;
+    size: 25px;
+    background-color: lightgray;
+    font-style: italic;
+    margin: auto;
+    border-left:3px solid firebrick;
+    
+}
+
+blockquote {
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px;
+    font-size: 160%;
+
 }
