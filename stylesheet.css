@@ -1,8 +1,10 @@
+
+
 body { width: 90%;
     margin: auto;    
     background: -webkit-radial-gradient(rgb(27, 187, 188), rgb(63, 70, 77));
     background: radial-gradient(rgb(27, 187, 188), rgb(63, 70, 77));
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     line-height: 2.0;
     color: rgb(48,48,48);
@@ -124,8 +126,8 @@ tr:nth-child(odd) {
     background-image: url(bien.png);
     background-repeat: no-repeat;
     padding-left: 50px;
-    width: 25%;
-    text-align: center;
+    width: fit-content;
+    text-align:center;
     height: 50px;
     padding-top: 20px;
 }
@@ -134,7 +136,7 @@ tr:nth-child(odd) {
     background-image: url(mal.png);
     background-repeat: no-repeat;
     padding-left: 50px;
-    width: 25%;
+    width: fit-content;
     text-align: center;
     height: 50px;
     padding-top: 20px;
@@ -145,7 +147,7 @@ tr:nth-child(odd) {
     background-image: url(chat.png);
     background-repeat: no-repeat;
     padding-left: 50px;
-    width: 25%;
+    width: fit-content;
     text-align: center;
     height: 50px;
     padding-top: 20px;
@@ -154,3 +156,51 @@ tr:nth-child(odd) {
 p:first-child {
     font-weight: bold;
 }
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.imagem1 {
+    width: 400px;
+}
+
+li {
+    width: 400px;
+}
+
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.imagem2 {
+    width: 400px;
+    float: left;
+}
+
+.para2 {
+    font-style: normal;
+    text-align: justify;
+}
+
+/* tentativa flexbox
+
+.texto3 {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem3 {
+    display: flex;
+    justify-content: center;
+}
+
+*/
