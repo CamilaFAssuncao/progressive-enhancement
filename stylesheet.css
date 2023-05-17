@@ -33,6 +33,7 @@ a:link {
 
 .quote {
     width: 50%;
+    font-size: 160%;
     size: 25px;
     background-color: lightgray;
     font-style: italic;
@@ -48,4 +49,108 @@ blockquote {
     padding: 30px;
     font-size: 160%;
 
+}
+
+.farmer {
+    font-size: 160%;
+    display: block;
+    margin-left: 3%;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    width: 50%;
+    size: 25px;
+    background-color: lightgray;
+    font-style: italic;
+    margin: auto;
+    border-left:3px solid firebrick;
+
+}
+
+.villagers {
+    font-size: 160%;
+    display: block;
+    margin-left: 3%;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    width: 50%;
+    size: 25px;
+    background-color: lightgray;
+    font-style: italic;
+    margin: auto;
+    border-left:3px solid green;
+}
+
+.good {
+    color:green;
+    text-transform: capitalize;
+}
+
+.bad {
+    color: red;
+    text-transform: capitalize;
+}
+
+
+tr:nth-child(even) {
+    
+    background: #CCC;
+}
+
+tr:nth-child(odd) {
+    
+    background: #FFF;
+}
+
+/* tentativa imagem ao lado da lista
+
+.tp1 {
+    list-style-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/bien.png?token=GHSAT0AAAAAACCMALQLPX3OWNX7P5GM7JJUZDDTZUA");
+    list-style-position: inside;
+    
+}
+
+.tp2 {
+    list-style-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/mal.png?token=GHSAT0AAAAAACCMALQLDRR3NBZ2O6GPO2SSZDDUMAQ");
+    list-style-position: inside;
+}
+
+.tp3 {
+    list-style-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/chat.png?token=GHSAT0AAAAAACCMALQLHAEHFHUHEPDARF7SZDDUMEA");
+    list-style-position: inside;
+}
+*/
+
+.tp1 {
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    width: 25%;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.tp2 {
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    width: 25%;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+
+}
+
+.tp3 {
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    width: 25%;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+
+p:first-child {
+    font-weight: bold;
 }
